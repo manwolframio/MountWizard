@@ -155,10 +155,5 @@ To remove machines from your list:
 
 Contributions are welcome! If you have suggestions, encounter issues, or wish to add new features, please open an issue or submit a pull request on the project's repository.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Thank you for using MountWizard! We hope this tool makes managing your remote file systems easier.
 
 
