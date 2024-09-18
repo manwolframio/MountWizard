@@ -23,42 +23,42 @@ Follow these steps to install and set up MountWizard on your system:
 
 Clone the repository or download the script directly:
 
-\`\`\`bash
-git clone https://github.com/your-username/MountWizard.git
+```bash
+git clone https://github.com/manwolframio/MountWizard.git
 cd MountWizard
-\`\`\`
+```
 
 ### Make the Script Executable:
 
-\`\`\`bash
+```bash
 chmod +x mountwizard.sh
-\`\`\`
+```
 
 ### Install Required Dependencies:
 
-- \`sshfs\`: To mount remote file systems.
-- \`dialog\`: For the user interface.
+- `sshfs`: To mount remote file systems.
+- `dialog`: For the user interface.
 
 On Debian/Ubuntu-based systems:
 
-\`\`\`bash
+```bash
 sudo apt-get update
 sudo apt-get install sshfs dialog
-\`\`\`
+```
 
 On RedHat/Fedora-based systems:
 
-\`\`\`bash
+```bash
 sudo dnf install sshfs dialog
-\`\`\`
+```
 
 ### Configure FUSE Permissions (if necessary):
 
 Ensure your user is part of the fuse group:
 
-\`\`\`bash
+```bash
 sudo usermod -a -G fuse $USER
-\`\`\`
+```
 
 Log out and log back in for the changes to take effect.
 
@@ -66,9 +66,9 @@ Log out and log back in for the changes to take effect.
 
 Run the script from the terminal:
 
-\`\`\`bash
+```bash
 ./mountwizard.sh
-\`\`\`
+```
 
 You will be presented with a menu featuring the following options:
 
